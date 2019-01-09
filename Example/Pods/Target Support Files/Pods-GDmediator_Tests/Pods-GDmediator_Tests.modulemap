@@ -1,0 +1,6 @@
+framework module Pods_GDmediator_Tests {
+  umbrella header "Pods-GDmediator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

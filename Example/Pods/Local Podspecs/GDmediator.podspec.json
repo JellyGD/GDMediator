@@ -1,0 +1,27 @@
+{
+  "name": "GDmediator",
+  "version": "0.1.0",
+  "summary": "A short description of GDmediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jelly130520@gmail.com/GDmediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jelly130520@gmail.com": "guodong.zhang@vipshop.com"
+  },
+  "source": {
+    "git": "https://github.com/jelly130520@gmail.com/GDmediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GDmediator/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

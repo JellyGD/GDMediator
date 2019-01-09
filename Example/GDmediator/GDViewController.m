@@ -7,6 +7,7 @@
 //
 
 #import "GDViewController.h"
+#import <GDmediator/GDMediator.h>
 
 @interface GDViewController ()
 
@@ -14,10 +15,13 @@
 
 @implementation GDViewController
 
+
+GDRegisterMediator();
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning

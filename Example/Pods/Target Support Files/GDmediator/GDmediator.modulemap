@@ -1,0 +1,6 @@
+framework module GDmediator {
+  umbrella header "GDmediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
