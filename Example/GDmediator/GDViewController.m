@@ -7,7 +7,6 @@
 //
 
 #import "GDViewController.h"
-#import <GDmediator/GDMediator.h>
 
 @interface GDViewController ()
 
@@ -15,8 +14,6 @@
 
 @implementation GDViewController
 
-
-GDRegisterMediator();
 
 - (void)viewDidLoad
 {

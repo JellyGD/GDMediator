@@ -13,7 +13,6 @@ static dispatch_queue_t GDMediatorClassesSyncQueue;
 
 @implementation GDMediator
 
-
 void GDRegisterMediator(Class);
 void GDRegisterMediator(Class moduleClass)
 {
@@ -26,6 +25,11 @@ void GDRegisterMediator(Class moduleClass)
     dispatch_barrier_async(GDMediatorClassesSyncQueue, ^{
         [GDMediatorClasses addObject:moduleClass];
     });
+}
+
+
++ (NSArray *)getMediators{
+    return [GDMediatorClasses copy];
 }
 
 

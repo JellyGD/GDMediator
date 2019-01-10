@@ -7,23 +7,25 @@
 
 #import <Foundation/Foundation.h>
 
-
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GDMediator : NSObject
 
 /** 名称 */
-@property(nonatomic,copy) NSString *name;
+@property(nonatomic, copy) NSString *name;
 
 /** target */
-@property(nonatomic,copy) NSString *target;
+@property(nonatomic, copy) NSString *target;
 
 /** action */
-@property(nonatomic,copy) NSString *action;
+@property(nonatomic, copy) NSString *action;
 
 /** 参数 */
-@property(nonatomic,strong) NSDictionary *params;
+@property(nonatomic, strong) NSDictionary *params;
+
+
+
++ (NSArray *)getMediators;
 
 @end
 

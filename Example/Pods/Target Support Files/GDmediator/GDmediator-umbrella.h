@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CTMediator+GD.h"
 #import "GDMediator.h"
 
 FOUNDATION_EXPORT double GDmediatorVersionNumber;
